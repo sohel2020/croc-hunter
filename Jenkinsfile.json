@@ -1,18 +1,18 @@
 {
   "app": {
-    "name": "croc-hunter",
+    "name": "demoapp",
     "replicas": "3",
     "cpu": "10m",
     "memory": "128Mi",
     "test": true,
-    "hostname": "croc-hunter.acs.az.estrado.io"
+    "hostname": "app.telenorhealth.com"
   },
   "container_repo": {
     "host": "quay.io",
-    "master_acct": "lachie83",
-    "alt_acct": "lachie83",
+    "master_acct": "sohel2020",
+    "alt_acct": "sohel2020",
     "jenkins_creds_id": "quay_creds",
-    "repo": "croc-hunter",
+    "repo": "demoapp",
     "dockeremail": ".",
     "dockerfile": "./",
     "image_scanning": true
